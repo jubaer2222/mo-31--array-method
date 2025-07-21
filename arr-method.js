@@ -29,3 +29,6 @@ let found = arr4.find(x => x > 10);
 console.log(found);
 
 
+let arr5 = [5, 12, 8];
+let found = arr5.find(x => x > 10); 
+console.log(found);
