@@ -1,3 +1,4 @@
+/*
 class Person {
   constructor(name, age) {
     this.name = name;
@@ -28,3 +29,20 @@ class Student extends Person {
 const s1 = new Student("Arafat", 20, "12345");
 s1.greet();     // Parent method
 s1.showID();    // Child method
+
+*/
+
+class Person {
+  constructor(name, age) {
+    this.name = name;
+    this.age = age;
+  }
+
+  greet() {
+    console.log(`Hello, my name is ${this.name} and I am ${this.age} years old.`);
+  }
+}
+
+// class থেকে object বানানো
+const person1 = new Person("Jubaer", 22);
+person1.greet(); // Hello, my name is Jubaer and I am 22 years old.
